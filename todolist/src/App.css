@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: cyan;
+    
+}
+.app__tag{
+    color: white;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.app{
+    background-color: #3f3160;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+.app > input{
+    background-color: green;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+.app > :placeholder-shown{
+    color: black;
+}
+.app>button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(202,156,24);
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: inherit;
+}
+button:hover{
+    background-color: rgb(202,156,24);;
+}
+
+
